@@ -5,21 +5,21 @@ const projectItems = [
     title: "Portfolio Website",
     category: "htmlcss",
     desc: "Showcase of my web development skills and projects.",
-    img: "/portfolioGil.png",
+    img: `${import.meta.env.BASE_URL}portfolioGil.png`,
     link: "https://gilcrpz.github.io/PtWebProg-github.io/"
   },
   {
     title: "Workease Admin (WPF)",
     category: "csharp",
     desc: "Desktop app for managing CDW operations. Built with C# and WPF.",
-    img: "/Workease.png",
+    img: `${import.meta.env.BASE_URL}Workease.png`,
     link: "https://github.com/nier0207-csharpprog.finalproject.workeaseapp.wpf"
   },
   {
     title: "Kusina ni Venus",
     category: "Vue",
     desc: "A web-based ordering and showcase app for classic Filipino comfort food, built with Vue.",
-    img: "/KusinaniVenus.png",
+    img: `${import.meta.env.BASE_URL}KusinaniVenus.png`,
     link: "https://gilcrpz.github.io/kusina-ni-venus/"
   }
 ];

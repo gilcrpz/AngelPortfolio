@@ -18,10 +18,10 @@ export default function Navbar({ darkMode, setDarkMode }) {
       <div className="header-actions">
         <nav className={`nav ${menuOpen ? "active" : ""}`} id="nav-menu">
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <a href="/#about" onClick={() => setMenuOpen(false)}>About</a>
+          <Link to="/#about" onClick={() => setMenuOpen(false)}>About</Link>
           <Link to="/skills" onClick={() => setMenuOpen(false)}>Skills</Link>
           <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
-          <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+          <Link to="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         </nav>
 
         <button
