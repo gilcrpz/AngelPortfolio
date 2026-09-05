@@ -1167,3 +1167,47 @@ body.darkmode .hamburger span {
   .nav.active { right: 24px; }
   .hamburger { display: flex; }
 }
+
+@media (max-width: 768px) {
+  #skills.section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 110px 16px 60px;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  #skills .skills-title {
+    font-size: 2.25rem;
+    margin: 0 0 24px;
+  }
+
+  #skills .skills-wrapper.two-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+    width: 100%;
+  }
+
+  #skills .skills-column {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #skills .skills-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    width: min(100%, 360px);
+    margin: 0 auto;
+    padding: 12px 0;
+    box-sizing: border-box;
+  }
+
+  #skills .card {
+    width: 100%;
+    min-width: 0;
+    height: 230px;
+  }
+}

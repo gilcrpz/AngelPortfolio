@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -72,7 +72,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <BrowserRouter basename="/AngelPortfolio">
+    <HashRouter>
       <ScrollToHash />
       <ScrollReveal />
       <div className="container">
@@ -83,6 +83,6 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
