@@ -1199,7 +1199,7 @@ body.darkmode .hamburger span {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 20px;
-    width: min(100%, 360px);
+    width: min(100%, 330px);
     margin: 0 auto;
     padding: 12px 0;
     box-sizing: border-box;
@@ -1208,6 +1208,23 @@ body.darkmode .hamburger span {
   #skills .card {
     width: 100%;
     min-width: 0;
-    height: 230px;
+    height: 205px;
+    padding: 16px;
+    gap: 8px;
+  }
+
+  #skills .card-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  #skills .heading {
+    font-size: 18px !important;
+  }
+
+  #skills .card-desc,
+  #skills .card p.learning-text,
+  #skills .card p:last-of-type:not(.learning-text) {
+    font-size: 14px;
   }
 }
