@@ -73,8 +73,8 @@ In `vite.config.js`, set the base to your repository name:
 
 ```js
 export default defineConfig({
-	plugins: [react()],
-	base: "/Angelportfolio/",
+  plugins: [react()],
+  base: "/AngelPortfolio/",
 });
 ```
 
