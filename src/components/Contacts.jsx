@@ -75,12 +75,12 @@ export default function Contact() {
         </div>
 
         <div className="resume-btn">
-          <a href="/RESUME - ANGEL_CAYABYAB.pdf" download="Angel_Cayabyab_Resume.pdf">
+          <a href="/RESUME%20-%20ANGEL_CAYABYAB.pdf" download="Angel_Cayabyab_Resume.pdf">
             Download My Resume
           </a>
         </div>
         <div className="resumecheck-btn">
-          <a href="/RESUME - ANGEL_CAYABYAB.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/RESUME%20-%20ANGEL_CAYABYAB.pdf" target="_blank" rel="noopener noreferrer">
             View My Resume
           </a>
         </div>
