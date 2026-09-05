@@ -1,4 +1,6 @@
 export default function Contact() {
+  const resumeUrl = "./RESUME-ANGELCAYABYAB.pdf";
+
   return (
     <section id="contact" className="contact-section reveal fadeInUp">
       <h1>What can i do for you?</h1>
@@ -75,12 +77,12 @@ export default function Contact() {
         </div>
 
         <div className="resume-btn">
-          <a href="/RESUME%20-%20ANGEL_CAYABYAB.pdf" download="Angel_Cayabyab_Resume.pdf">
+          <a href={resumeUrl} download="Angel_Cayabyab_Resume.pdf">
             Download My Resume
           </a>
         </div>
         <div className="resumecheck-btn">
-          <a href="/RESUME%20-%20ANGEL_CAYABYAB.pdf" target="_blank" rel="noopener noreferrer">
+          <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
             View My Resume
           </a>
         </div>
