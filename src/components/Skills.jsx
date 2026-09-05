@@ -41,7 +41,7 @@ function SkillGrid({ skills }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="section reveal fadeInLeft">
+    <section id="skills" className="section">
       <h1 className="skills-title">Skills</h1>
       <div className="skills-wrapper two-columns">
         <div className="skills-column">

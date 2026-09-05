@@ -33,7 +33,7 @@ export default function Projects() {
       : projectItems.filter((item) => item.category === filter);
 
   return (
-    <section id="projects" className="projects-section reveal fadeInRight">
+    <section id="projects" className="projects-section">
       <h1>My Projects</h1>
       <div className="filter-buttons">
         <button onClick={() => setFilter("all")}>All</button>
