@@ -34,7 +34,6 @@ npm run dev
 ```
 
 Open the local URL shown in the terminal.
-
 To create a production build:
 
 ```bash
