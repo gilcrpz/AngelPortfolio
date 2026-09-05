@@ -72,7 +72,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AngelPortfolio">
       <ScrollToHash />
       <ScrollReveal />
       <div className="container">
